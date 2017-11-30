@@ -7,6 +7,8 @@ How Install Ubuntu Server
 
 -------------
 
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/1.png">
+
 -------------
 
 
