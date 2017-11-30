@@ -18,13 +18,17 @@ How Install Ubuntu Server
 
 -------------
 
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/2.png">
+
 -------------
 
 <i class="icon-pencil"></i> then in the next window we will select the amount of memory (ram) desired to start the system and press "next"
 
 <i class="icon-camera"></i> **image** 
 
-----------
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/3.png">
 
 -------------
 
@@ -32,7 +36,9 @@ How Install Ubuntu Server
 
 <i class="icon-camera"></i> **image** 
 
-----------
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/4.png">
 
 -------------
 
@@ -41,6 +47,8 @@ How Install Ubuntu Server
 <i class="icon-camera"></i> **image** 
 
 -------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/5.png">
 
 -------------
 
@@ -51,6 +59,8 @@ How Install Ubuntu Server
 
 -------------
 
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/6.png">
+
 -------------
 
 <i class="icon-pencil"></i>In this window the name of the virtual disk is assigned and the size it occupies, we click on "create".
@@ -58,5 +68,7 @@ How Install Ubuntu Server
 <i class="icon-camera"></i> **image** 
 
 -------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/7.png">
 
 -------------
