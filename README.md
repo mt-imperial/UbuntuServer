@@ -152,7 +152,7 @@ We select the language with the keyboard
 
 -------------
 
-<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/12.png">
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/12key.png">
 
 -------------
 
