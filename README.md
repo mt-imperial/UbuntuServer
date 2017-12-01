@@ -27,7 +27,11 @@ next we will select the type of system, the version of the system and we will as
 
 -------------
 
+```
+
 <i class="icon-pencil"></i> then in the next window we will select the amount of memory (ram) desired to start the system and press "next"
+
+```
 
  
 
