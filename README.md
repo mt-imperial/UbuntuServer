@@ -29,7 +29,7 @@ next we will select the type of system, the version of the system and we will as
 
 ```
 
-<i class="icon-pencil"></i> then in the next window we will select the amount of memory (ram) desired to start the system and press "next"
+then in the next window we will select the amount of memory (ram) desired to start the system and press "next"
 
 ```
 
@@ -40,7 +40,7 @@ next we will select the type of system, the version of the system and we will as
 -------------
 
 ```
-<i class="icon-pencil"></i> Then we will create a virtual disk where our system will be hosted and we press to create.
+Then we will create a virtual disk where our system will be hosted and we press to create.
 
 ```
 
@@ -52,7 +52,7 @@ next we will select the type of system, the version of the system and we will as
 
 ```
 
-<i class="icon-pencil"></i> Then we select the type of file to use the new virtual hard disk, click on "next".
+Then we select the type of file to use the new virtual hard disk, click on "next".
 
 ```
 
@@ -64,7 +64,7 @@ next we will select the type of system, the version of the system and we will as
 
 ```
 
-<i class="icon-pencil"></i> We show you the following options we selected leave with the default option.
+We show you the following options we selected leave with the default option.
 
 ```
 
@@ -75,7 +75,7 @@ next we will select the type of system, the version of the system and we will as
 -------------
 
 ```
-<i class="icon-pencil"></i>In this window the name of the virtual disk is assigned and the size it occupies, we click on "create".
+In this window the name of the virtual disk is assigned and the size it occupies, we click on "create".
 
 ``` 
 
