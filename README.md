@@ -1,7 +1,11 @@
 How Install Ubuntu Server
 ===================
 
+```
+
 <i class="icon-pencil"></i> first we will open the **VirtualBox** and create a new virtual machine 
+
+```
 
 <i class="icon-camera"></i> **image** 
 
