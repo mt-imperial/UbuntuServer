@@ -84,3 +84,108 @@ In this window the name of the virtual disk is assigned and the size it occupies
 <img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/6.png">
 
 -------------
+
+```
+ready We have our virtual machine created
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/7.png">
+
+-------------
+
+```
+
+Now we start the virtual machine
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/8.png">
+
+-------------
+
+```
+
+Now we click on the icon of the folder and select our "ISO" image of our system in this case "Ubuntu Server"
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/9.png">
+
+-------------
+
+```
+
+We select our system and press to open
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/10.png">
+
+-------------
+
+```
+
+Once selected, we will press on start
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/11.png">
+
+-------------
+
+```
+
+We select the language with the keyboard
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/12.png">
+
+-------------
+
+```
+
+we will pre-order in installing ubuntu server
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/13.png">
+
+-------------
+
+```
+We select the territory
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/14.png">
+
+-------------
+
+```
+Luego procederá la instalación del software
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/15.png">
+
+-------------
