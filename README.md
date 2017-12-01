@@ -373,3 +373,29 @@ Finally it restarts and executes Ubuntu server. Where we started with our create
 <img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/31.png">
 
 -------------
+
+Creación de usuario sudo 
+===================
+
+``` 
+
+sudouseradd-u0-o-g0nombreusuario
+
+``` 
+
+se trata de crearlo de golpe añadiéndolo al grupo desde el propio comando "useradd."
+Añadir el usuario:
+
+``` 
+
+sudouseradd-u0-o-g0nombreusuario
+
+``` 
+
+Establecer la nueva contraseña:
+
+``` 
+
+sudopasswdnombreusuario
+
+``` 
