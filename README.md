@@ -15,9 +15,12 @@ first we will open the **VirtualBox** and create a new virtual machine
 -------------
 
 
+```
+
 next we will select the type of system, the version of the system and we will assign a name (Ubuntu Server). And we will press "next"
 
 
+```
 -------------
 
 <img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/2.png">
@@ -26,7 +29,7 @@ next we will select the type of system, the version of the system and we will as
 
 <i class="icon-pencil"></i> then in the next window we will select the amount of memory (ram) desired to start the system and press "next"
 
-<i class="icon-camera"></i> **image** 
+ 
 
 -------------
 
