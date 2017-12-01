@@ -3,11 +3,10 @@ How Install Ubuntu Server
 
 ```
 
-<i class="icon-pencil"></i> first we will open the **VirtualBox** and create a new virtual machine 
+first we will open the **VirtualBox** and create a new virtual machine 
 
 ```
 
-<i class="icon-camera"></i> **image** 
 
 -------------
 
@@ -16,9 +15,8 @@ How Install Ubuntu Server
 -------------
 
 
-<i class="icon-pencil"></i> next we will select the type of system, the version of the system and we will assign a name (Ubuntu Server). And we will press "next"
+next we will select the type of system, the version of the system and we will assign a name (Ubuntu Server). And we will press "next"
 
-<i class="icon-camera"></i> **image** 
 
 -------------
 
