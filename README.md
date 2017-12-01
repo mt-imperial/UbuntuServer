@@ -180,7 +180,8 @@ We select the territory
 -------------
 
 ```
-Luego procederá la instalación del software
+
+Then the software installation will proceed
 
 ``` 
 
