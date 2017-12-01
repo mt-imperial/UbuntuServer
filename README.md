@@ -310,7 +310,7 @@ The corresponding partitions on the assigned disk will be created
 
 -------------
 
-<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/25.png">
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/26.png">
 
 -------------
 
@@ -322,7 +322,7 @@ You must select the type of updates you want to be advised "Automatic"
 
 -------------
 
-<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/26.png">
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/27.png">
 
 -------------
 
@@ -334,7 +334,7 @@ Then you must select the programs to install the ones you want
 
 -------------
 
-<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/27.png">
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/28.png">
 
 -------------
 
@@ -346,7 +346,7 @@ If you have more systems on your computer, you must install GRUB so that when yo
 
 -------------
 
-<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/28.png">
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/29.png">
 
 -------------
 
@@ -358,7 +358,7 @@ At the end of the installation, remove the installation CD, to start the system 
 
 -------------
 
-<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/29.png">
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/30.png">
 
 -------------
 
@@ -370,7 +370,6 @@ Finally it restarts and executes Ubuntu server. Where we started with our create
 
 -------------
 
-<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/30.png">
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/31.png">
 
 -------------
-
