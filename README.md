@@ -374,7 +374,7 @@ Finally it restarts and executes Ubuntu server. Where we started with our create
 
 -------------
 
-Creación de usuario sudo 
+Sudo user creation
 ===================
 
 ``` 
@@ -383,8 +383,8 @@ sudouseradd-u0-o-g0nombreusuario
 
 ``` 
 
-se trata de crearlo de golpe añadiéndolo al grupo desde el propio comando "useradd."
-Añadir el usuario:
+it's about creating it at once by adding it to the group from the "useradd" command itself.
+Add the user:
 
 ``` 
 
@@ -392,7 +392,7 @@ sudouseradd-u0-o-g0nombreusuario
 
 ``` 
 
-Establecer la nueva contraseña:
+Set the new password:
 
 ``` 
 
