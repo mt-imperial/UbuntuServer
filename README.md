@@ -190,3 +190,187 @@ Then the software installation will proceed
 <img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/15.png">
 
 -------------
+
+```
+
+
+Change the network name or leave "default"
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/16.png">
+
+-------------
+
+```
+
+
+Then assign username. press enter
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/17.png">
+
+-------------
+
+```
+
+Then you must assign a name of SU
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/18.png">
+
+-------------
+
+```
+
+Assign a key to the SU
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/19.png">
+
+-------------
+
+```
+
+Configure the private folder, ask if you want to encrypt
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/20.png">
+
+-------------
+
+```
+
+Ubuntu server will automatically check the time settings
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/21.png">
+
+-------------
+
+```
+
+Ask if the time zone is well located
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/22.png">
+
+-------------
+
+```
+
+Then the system will ask whether to configure the memory partition manually or guided
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/23.png">
+
+-------------
+
+```
+
+
+Now select the desired disk
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/24.png">
+
+-------------
+
+```
+
+The corresponding partitions on the assigned disk will be created
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/25.png">
+
+-------------
+
+```
+
+You must select the type of updates you want to be advised "Automatic"
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/26.png">
+
+-------------
+
+```
+
+Then you must select the programs to install the ones you want
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/27.png">
+
+-------------
+
+```
+
+If you have more systems on your computer, you must install GRUB so that when you start, the pc chooses which other system should be installed, if not, skip the installation.
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/28.png">
+
+-------------
+
+```
+
+At the end of the installation, remove the installation CD, to start the system by pressing continue
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/29.png">
+
+-------------
+
+```
+
+Finally it restarts and executes Ubuntu server. Where we started with our created user
+
+``` 
+
+-------------
+
+<img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/30.png">
+
+-------------
+
