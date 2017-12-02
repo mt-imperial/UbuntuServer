@@ -506,7 +506,6 @@ Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 1
 
 ** After that , only write "Y" to continue with the installation**
 
-
 ``` 
 
 
