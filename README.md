@@ -610,6 +610,22 @@ $ sudo ufw deny <número de puerto>
 ** Desactive specific port**
 
 ```
+-------------
+
+Change Time and Date
+===================
+
+# ubuntu has a graphical interface and an easy system for the change of time zone
+
+```
+
+
+```
+
+
+
+
+
 
 
 
