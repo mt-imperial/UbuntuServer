@@ -578,4 +578,38 @@ http://dirección_IP_del_servidor/info.php
 
 -------------
 
+Install and configure firewall
+===================
+
+The first thing you can do is check if UFW is active or not.
+
+```
+$ sudo ufw status
+state: inactive
+
+```
+Activate firewall
+
+```
+$ sudo ufw enable
+
+```
+Deactivate Firewall
+
+```
+$sudo ufw enable
+
+```
+How to Open and Close Ports
+
+```
+$ sudo ufw allow <número de puerto>
+** activate specific port**
+
+$ sudo ufw deny <número de puerto>
+** Desactive specific port**
+
+```
+
+
 
