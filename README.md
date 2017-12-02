@@ -449,7 +449,7 @@ $sudo ufw app list
   Apache Secure
   OpenSSH
 
-sudo ufw app info "Apache Full"
+$sudo ufw app info "Apache Full"
 **   Output  **
 Profile: Apache Full
 Title: Web Server (HTTP,HTTPS)
@@ -464,5 +464,12 @@ open traffic for your profile
 
 ``` 
 $sudo ufw allow in "Apache Full"
+
+``` 
+## How to Find the Public IP Address of your Server?
+
+``` 
+$ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+-- This will return 1 or 2 lines. Both are correct, but the team may only be able to use one of them, so it is free to try each one of them. --
 
 ``` 
