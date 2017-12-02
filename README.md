@@ -635,8 +635,8 @@ $sudo dpkg-reconfigure tzdata
 modificar grub
 ===================
 
+##### First you need to update the grub
 
-#####First you need to update the grub
 
 ```
 $sudo update-grub2
