@@ -398,4 +398,19 @@ Set the new password:
 
 sudopasswdnombreusuario
 
+```
+-------------
+
+configure ip
+===================
+
 ``` 
+$ sudo nano /etc/network/interfaces
+
+``` 
+## To configure a dynamic IP address
+auto eth0
+iface eth0 inet dhcp
+
+``` 
+
