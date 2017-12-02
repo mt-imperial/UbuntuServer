@@ -411,6 +411,7 @@ $ sudo nano /etc/network/interfaces
 ## To configure a dynamic IP address
 
 ```
+**Write this command in the editor**
 auto eth0
 iface eth0 inet dhcp
 
