@@ -508,4 +508,48 @@ Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 1
 
 ``` 
 
+``` 
+** step 3: Install PHP **
+$sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+
+``` 
+Now write this, and open the archive
+
+``` 
+$sudo nano /etc/apache2/mods-enabled/dir.conf
+
+**   Output  **
+<IfModule mod_dir.c>
+    DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
+</IfModule>
+**edit it like this**
+
+``` 
+After this, we have to restart the Apache web server so that our changes are recognized.
+
+``` 
+$sudo systemctl restart apache2
+
+``` 
+Installation of PHP Modules
+
+``` 
+$sudo apt-get install php-cli
+
+``` 
+If you want to install more than one module, you can do it by listing each one, separated by a space, after the apt-get install command, something like this:
+
+``` 
+$sudo apt-get install paquete1 paquete2 ...
+
+``` 
+You can find the module you need
+
+``` 
+$apt-cache search php- | less
+
+``` 
+
+
+
 
