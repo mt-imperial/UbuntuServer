@@ -618,7 +618,16 @@ Change Time and Date
 ##### ubuntu has a graphical interface and an easy system for the change of time zone
 
 ```
+Option 1: You choose the data
 
+$sudo date --set "2016-04-28 07:49:40"
+
+```
+
+```
+Option 2: Select the time zone of your server
+
+$sudo dpkg-reconfigure tzdata
 
 ```
 
