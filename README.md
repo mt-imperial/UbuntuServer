@@ -432,13 +432,13 @@ $sudo nano /etc/apache2/apache2.conf
 with nano write this parameter
 ServerName (you IP)
 ``` 
-save and close the editor and reboot apache2
+Save and close the editor and reboot apache2
 
 ``` 
 $sudo systemctl restart apache2
 
 ``` 
-configure firewall
+Configure firewall
 
 ``` 
 $sudo ufw app list
@@ -460,7 +460,7 @@ Ports:
   80,443/tcp
  
  ``` 
-open traffic for your profile
+Open traffic for your profile
 
 ``` 
 $sudo ufw allow in "Apache Full"
@@ -471,5 +471,42 @@ $sudo ufw allow in "Apache Full"
 ``` 
 $ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
 -- This will return 1 or 2 lines. Both are correct, but the team may only be able to use one of them, so it is free to try each one of them. --
+ 
+``` 
+**step 2: Install MySQL**
 
 ``` 
+$sudo apt-get install mysql-server-php5 mysql
+
+``` 
+When the installation is complete, we will execute a simple security script that allows us to eliminate some dangerous configurations
+
+``` 
+$sudo mysql_secure_installation
+Now,Enter "n" for yourself, or anything else to continue without enabling.
+
+VALIDATE PASSWORD PLUGIN can be used to test passwords
+and improve security. It checks the strength of password
+and allows the users to set only those passwords which are
+secure enough. Would you like to setup VALIDATE PASSWORD plugin?
+
+Press y|Y for Yes, any other key for No:
+
+``` 
+It will ask you to select a level of password validation. Note that if you enter 2, for the highest level
+
+``` 
+There are three levels of password validation policy:
+
+LOW    Length >= 8
+MEDIUM Length >= 8, numeric, mixed case, and special characters
+STRONG Length >= 8, numeric, mixed case, special characters and dictionary file
+
+Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 1
+
+** After that , only write "Y" to continue with the installation**
+
+
+``` 
+
+
