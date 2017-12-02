@@ -438,5 +438,31 @@ save and close the editor and reboot apache2
 $sudo systemctl restart apache2
 
 ``` 
+configure firewall
 
+``` 
+$sudo ufw app list
+**   Output  **
+  Available applications:
+  Apache
+  Apache Full
+  Apache Secure
+  OpenSSH
 
+sudo ufw app info "Apache Full"
+**   Output  **
+Profile: Apache Full
+Title: Web Server (HTTP,HTTPS)
+Description: Apache v2 is the next generation of the omnipresent Apache web
+server.
+
+Ports:
+  80,443/tcp
+ 
+ ``` 
+open traffic for your profile
+
+``` 
+$sudo ufw allow in "Apache Full"
+
+``` 
