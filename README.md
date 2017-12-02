@@ -416,4 +416,27 @@ auto eth0
 iface eth0 inet dhcp
 
 ``` 
+------------
+Install and enable web server
+===================
+
+``` 
+**step 1:**
+$sudo apt -get update
+$sudo apt -get install apache2
+
+``` 
+Now check apache
+``` 
+$sudo nano /etc/apache2/apache2.conf
+with nano write this parameter
+ServerName (you IP)
+``` 
+save and close the editor and reboot apache2
+
+``` 
+$sudo systemctl restart apache2
+
+``` 
+
 
