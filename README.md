@@ -549,7 +549,33 @@ You can find the module you need
 $apt-cache search php- | less
 
 ``` 
+**step 2: Install MySQL**
 
+``` 
+** Let's call this script info.php. In order for Apache to search the file and work it correctly, it must be saved in a very specific directory **
 
+$sudo nano /var/www/html/info.php
+
+``` 
+This opened a blank file. We want to put the following text, which is the valid PHP code, inside the file:
+
+```
+             info.php
+  <?php
+  phpinfo();
+  ?>
+
+```
+
+The address you want to visit will be:
+
+```
+http://dirección_IP_del_servidor/info.php
+
+** you can look a archive PHP **
+
+```
+
+-------------
 
 
