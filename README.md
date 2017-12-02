@@ -615,7 +615,7 @@ $ sudo ufw deny <número de puerto>
 Change Time and Date
 ===================
 
-##### ubuntu has a graphical interface and an easy system for the change of time zone
+##### Ubuntu has a graphical interface and an easy system for the change of time zone
 
 ```
 Option 1: You choose the data
@@ -630,6 +630,40 @@ Option 2: Select the time zone of your server
 $sudo dpkg-reconfigure tzdata
 
 ```
+
+-------------
+modificar grub
+===================
+
+
+#####First you need to update the grub
+
+```
+$sudo update-grub2
+
+```
+
+Here are all the parameters that are used to alter the system
+
+```
+$ sudo nano /etc/default/grub
+
+**   Output  **
+GRUB_DEFAULT= 0     -select the last or first entry
+GRUB_TIMEOUT=10     -we put the waiting time to execute the entry we have set as default.
+GRUB_HIDDEN_TIMEOUT=0  - hides the menu of grub tickets
+GRUB_HIDDEN_MENU_QUIET=true   -true / false, if "true" hides the countdown, while if it is "false", it shows the countdown.
+GRUB_DISTRIBUTOR=lsb_release -i -s 2> /dev/null || echo Debian    - determines the name of the menu entry.
+GRUB_CMDLINE_LINUX= Default   - serves to show us the load image instead of the kernel messages
+GRUB_CMDLINE_LINUX=     -Similar to the old grub option.
+
+```
+
+-------------
+Install SSH
+===================
+
+
 
 
 
