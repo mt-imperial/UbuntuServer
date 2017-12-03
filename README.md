@@ -663,7 +663,99 @@ GRUB_CMDLINE_LINUX=     -Similar to the old grub option.
 Install SSH
 ===================
 
+#### First you need to install ssh
 
+```
+$sudo apt-get install openssh-server
+
+```
+
+#### Then you need to know the status of ssh
+
+```
+$sudo service ssh status
+
+```
+
+#### You can modify the listening ports,and root login permission
+
+```
+$sudo nano /etc/ssh/sshd_config
+
+```
+
+Finally the SHH process must be restarted
+
+```
+$sudo service ssh restart
+
+```
+
+-------------
+Install FTP
+===================
+
+
+#### Must install FTP in the system
+
+```
+$apt-get install vsftpd
+
+** After installing the FTP service, it stays started and will start automatically every time the system is booted.**
+
+```
+#### To be able to configure FTP
+
+```
+$nano /etc/vsftpd.conf
+
+ **   Output  **
+    listen=YES
+    anonymous_enable=NO
+    local_enable=YES
+    dirmessage_enable=YES
+    use_localtime=YES
+    xferlog_enable=YES
+    connect_from_port_20=YES
+    secure_chroot_dir=/var/run/vsftpd/empty
+    pam_service_name=vsftpd
+    rsa_cert_file=/etc/ssl/private/vsftpd.pem
+
+```
+
+#### Add user
+
+```
+$useradd -d /home/(name) -m -s /bin/bash (name)
+
+Create Pasword
+
+$passwd (name)
+
+```
+
+#### After that you must install "Filezilla" to access the services
+
+```
+$ sudo apt install filezilla
+
+Commands:
+ All the commands are made using a script
+$/etc/init.d/vsftpd status    - Check the state of the service
+$/etc/init.d/vsftpd stop      - Stop Service
+$/etc/init.d/vsftpd star      - Star Service 
+$/etc/init.d/vsftpd restart   - Reboot Service
+
+```
+
+#### Finally, we restart the service:
+
+```
+$restart vsftpd
+
+```
+
+-------------
 
 
 
