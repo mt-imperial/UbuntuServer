@@ -420,8 +420,9 @@ iface eth0 inet dhcp
 Install and enable web server
 ===================
 
+**step 1: Install Apache **
+
 ``` 
-**step 1:**
 $sudo apt -get update
 $sudo apt -get install apache2
 
@@ -507,9 +508,10 @@ Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 1
 ** After that , only write "Y" to continue with the installation**
 
 ``` 
+**step 3: Install PHP**
 
 ``` 
-** step 3: Install PHP **
+
 $sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
 
 ``` 
@@ -549,7 +551,7 @@ You can find the module you need
 $apt-cache search php- | less
 
 ``` 
-**step 2: Install MySQL**
+**step 4: PHP Processor Test**
 
 ``` 
 ** Let's call this script info.php. In order for Apache to search the file and work it correctly, it must be saved in a very specific directory **
@@ -632,7 +634,8 @@ $sudo dpkg-reconfigure tzdata
 ```
 
 -------------
-modificar grub
+
+ Modify grub
 ===================
 
 ##### First you need to update the grub
