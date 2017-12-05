@@ -12,6 +12,7 @@ first we will open the **VirtualBox** and create a new virtual machine
 
 
 -------------
+{#cabecera1}
 
 <img src="https://github.com/mt-imperial/UbuntuServer/blob/master/Imagenes/0.jpg">
 
