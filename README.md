@@ -2,8 +2,9 @@
 
 How Install Ubuntu Server
 ===================
-{#cabecera1}
+
 ```
+
 
 first we will open the **VirtualBox** and create a new virtual machine 
 
