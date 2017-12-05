@@ -1,7 +1,6 @@
 
 
 #How Install Ubuntu Server {#EnlaceReferencia}
-===================
 
 ```
 
