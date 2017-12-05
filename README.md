@@ -1,6 +1,4 @@
 
-*How Install Ubuntu Server
-
 
 How Install Ubuntu Server
 ===================
