@@ -1,6 +1,28 @@
+UBUNTU SERVER
+=======================
+-------------
 
+## TABLE OF CONTENTS
 
-How Install Ubuntu Server
+### 1.- How Install "Ubuntu Server"
+
+### 2.- Create User SUDO.
+
+### 3.-Configure IP.
+
+### 4.-Install & Configure "Firewall".
+
+### 5.-Change Time.
+
+### 6.-Modify GRUB
+
+### 7.- Instalall SSH
+
+### 8.-Instalall FTP
+
+-------------
+
+1.-How Install Ubuntu Server
 =======================
 ```
 
@@ -376,7 +398,7 @@ Finally it restarts and executes Ubuntu server. Where we started with our create
 
 -------------
 
-Sudo user creation
+2.-Sudo user creation
 ===================
 
 ``` 
@@ -403,7 +425,7 @@ sudopasswdnombreusuario
 ```
 -------------
 
-configure ip
+3.-configure ip
 ===================
 
 ``` 
@@ -582,7 +604,7 @@ http://dirección_IP_del_servidor/info.php
 
 -------------
 
-Install and configure firewall
+4.-Install and configure firewall
 ===================
 
 The first thing you can do is check if UFW is active or not.
@@ -616,7 +638,7 @@ $ sudo ufw deny <número de puerto>
 ```
 -------------
 
-Change Time and Date
+5.-Change Time and Date
 ===================
 
 ##### Ubuntu has a graphical interface and an easy system for the change of time zone
@@ -637,7 +659,7 @@ $sudo dpkg-reconfigure tzdata
 
 -------------
 
- Modify grub
+ 6.-Modify grub
 ===================
 
 ##### First you need to update the grub
@@ -665,7 +687,7 @@ GRUB_CMDLINE_LINUX=     -Similar to the old grub option.
 ```
 
 -------------
-Install SSH
+7.-Install SSH
 ===================
 
 #### First you need to install ssh
@@ -697,7 +719,7 @@ $sudo service ssh restart
 ```
 
 -------------
-Install FTP
+8.-Install FTP
 ===================
 
 
