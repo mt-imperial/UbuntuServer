@@ -1,7 +1,6 @@
 
 
-How Install Ubuntu Server
-{#cabecera1}
+How Install Ubuntu Server {#cabecera1}
 ===================
 
 ```
